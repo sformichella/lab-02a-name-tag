@@ -6,6 +6,9 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
+}
+
+body {
     background-color: darkgray;
 }
 
@@ -13,8 +16,8 @@ main {
     background-color: crimson;
     color: floralwhite;
     height: 270px;
-    border-radius: 25px;
     width: 400px;
+    border-radius: 25px;
     margin: 10px;
 }
 
@@ -30,8 +33,8 @@ main {
 
 p {
     text-align: center;
-    margin: 0;
     line-height: normal;
+    margin: 0;
 }
 
 section {
@@ -52,16 +55,3 @@ section {
     justify-content: center;
     align-items: center;
 }
-
-.flex-vert-center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.flex-horz-center {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
